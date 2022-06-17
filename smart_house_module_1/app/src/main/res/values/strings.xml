@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">smart_house_module_1</string>
+    <string name="background1">background1</string>
+    <string name="background2">background2</string>
+    <string name="Text1">Smart House</string>
+    <string name="button1">EnterYourHouse</string>
+    <string name="button2">NewResident</string>
+    <string name="Logo">Logo</string>
+    <string name="Reg">Reg</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="Name">Name</string>
+    <string name="Start">Start</string>
+    <string name="SignOut">SignOut</string>
+    <string name="DOB">DOB</string>
+    <string name="Gender">Gender</string>
+    <string name="Save">Save</string>
+    <string name="Panel">Panel</string>
+    <string name="Ava">ava</string>
+    <string name="Phone">Phone</string>
+</resources>
