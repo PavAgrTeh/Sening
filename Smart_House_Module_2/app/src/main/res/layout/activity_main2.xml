@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.wear.widget.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context=".MainActivity2"
+    tools:deviceIds="wear">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/inner_frame_layout_padding"
+        app:layout_boxedEdges="all">
+
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="5dp"
+                    android:src="@drawable/street_facade_of_the_long_house2"
+                    android:visibility="visible"
+                    android:contentDescription="@string/hello_world"/>
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="155dp"
+                    android:layout_height="149dp"
+                    android:src="@drawable/rectangle_7"
+                    android:visibility="visible"
+                    android:contentDescription="@string/hello_world"/>
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginBottom="12dp"
+                    android:contentDescription="@string/hello_world"
+                    android:text="Smart House" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="90dp"
+                    android:layout_marginRight="20dp"
+                    android:backgroundTint="#984E4F"
+                    android:onClick="onClick"
+                    android:text="Enter Your House"
+                    android:contentDescription="@string/hello_world"/>
+
+                <EditText
+                    android:id="@+id/editTextTextEmailAddress2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:ems="10"
+                    android:inputType="textEmailAddress"
+                    android:text="E-mail"
+                    android:contentDescription="@string/hello_world"/>
+
+                <EditText
+                    android:id="@+id/editTextTextPassword2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:ems="10"
+                    android:inputType="textPassword"
+                    android:contentDescription="@string/hello_world"/>
+
+
+    </FrameLayout>
+</androidx.wear.widget.BoxInsetLayout>
